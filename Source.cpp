@@ -1,9 +1,3 @@
-# DialogBlocks_test
-Пример простейшей визуальной программы с wxWidgets для DialogBlocks
-
-![srcreenshot](screenshot.png)
-
-```
 #include <wx/wx.h>
 #include "tsnsoft.xpm" // Иконка в формате xpm
 
@@ -39,4 +33,3 @@ public:
 };
 
 wxIMPLEMENT_APP(MyApp); // Создание точки входа в приложение
-```

@@ -3,7 +3,7 @@
 // Purpose:     
 // Author:      Talipov S.N.
 // Modified by: 
-// Created:     Tue 10 Nov 2020 18:12:19 +06
+// Created:     14.04.2025 21:14:02
 // RCS-ID:      
 // Copyright:   
 // Licence:     
@@ -19,7 +19,6 @@
 
 ////@begin includes
 #include "wx/image.h"
-#include "mainform.h"
 ////@end includes
 
 /*!

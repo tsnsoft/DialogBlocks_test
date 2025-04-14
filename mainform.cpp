@@ -3,7 +3,7 @@
 // Purpose:     
 // Author:      Talipov S.N.
 // Modified by: 
-// Created:     Tue 10 Nov 2020 18:12:38 +06
+// Created:     14.04.2025 21:14:03
 // RCS-ID:      
 // Copyright:   
 // Licence:     
@@ -26,6 +26,7 @@
 #include "mainform.h"
 
 ////@begin XPM images
+
 ////@end XPM images
 
 
@@ -121,9 +122,36 @@ void MainForm::CreateControls()
     wxButton* itemButton3 = new wxButton( itemFrame1, ID_BUTTON, wxGetTranslation(wxString() + (wxChar) 0x0410 + wxT(" ") + (wxChar) 0x044D + (wxChar) 0x0442 + (wxChar) 0x043E + wxT(" ") + (wxChar) 0x043A + (wxChar) 0x043D + (wxChar) 0x043E + (wxChar) 0x043F + (wxChar) 0x043E + (wxChar) 0x0447 + (wxChar) 0x043A + (wxChar) 0x0430 + wxT("!")), wxDefaultPosition, wxDefaultSize, 0 );
     itemBoxSizer1->Add(itemButton3, 0, wxALIGN_CENTER_HORIZONTAL|wxALL, 5);
 
+
     // Connect events and objects
     itemButton3->Connect(ID_BUTTON, wxEVT_MIDDLE_DOWN, wxMouseEventHandler(MainForm::OnMiddleDown), NULL, this);
 ////@end MainForm content construction
+}
+
+
+/*
+ * wxEVT_COMMAND_BUTTON_CLICKED event handler for ID_BUTTON
+ */
+
+void MainForm::OnButtonClick( wxCommandEvent& event )
+{
+////@begin wxEVT_COMMAND_BUTTON_CLICKED event handler for ID_BUTTON in MainForm.
+    // Before editing this code, remove the block markers.
+    event.Skip();
+////@end wxEVT_COMMAND_BUTTON_CLICKED event handler for ID_BUTTON in MainForm. 
+}
+
+
+/*
+ * wxEVT_MIDDLE_DOWN event handler for ID_BUTTON
+ */
+
+void MainForm::OnMiddleDown( wxMouseEvent& event )
+{
+////@begin wxEVT_MIDDLE_DOWN event handler for ID_BUTTON in MainForm.
+    // Before editing this code, remove the block markers.
+    event.Skip();
+////@end wxEVT_MIDDLE_DOWN event handler for ID_BUTTON in MainForm. 
 }
 
 
@@ -161,24 +189,3 @@ wxIcon MainForm::GetIconResource( const wxString& name )
     return wxNullIcon;
 ////@end MainForm icon retrieval
 }
-
-
-/*
- * wxEVT_COMMAND_BUTTON_CLICKED event handler for ID_BUTTON
- */
-
-void MainForm::OnButtonClick( wxCommandEvent& event )
-{
-  wxMessageBox(L"wxWidgets - это круто!!!");
-}
-
-
-/*
- * wxEVT_MIDDLE_DOWN event handler for ID_BUTTON
- */
-
-void MainForm::OnMiddleDown( wxMouseEvent& event )
-{
-  wxMessageBox(L"wxWidgets - это бесплатно!!!");
-}
-

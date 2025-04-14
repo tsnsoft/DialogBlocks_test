@@ -3,7 +3,7 @@
 // Purpose:     
 // Author:      Talipov S.N.
 // Modified by: 
-// Created:     Tue 10 Nov 2020 18:12:38 +06
+// Created:     14.04.2025 21:14:03
 // RCS-ID:      
 // Copyright:   
 // Licence:     
@@ -69,7 +69,6 @@ public:
     void CreateControls();
 
 ////@begin MainForm event handler declarations
-
     /// wxEVT_COMMAND_BUTTON_CLICKED event handler for ID_BUTTON
     void OnButtonClick( wxCommandEvent& event );
 
@@ -79,7 +78,6 @@ public:
 ////@end MainForm event handler declarations
 
 ////@begin MainForm member function declarations
-
     /// Retrieves bitmap resources
     wxBitmap GetBitmapResource( const wxString& name );
 
