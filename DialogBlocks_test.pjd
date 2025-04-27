@@ -204,7 +204,7 @@
           <string name="Compiler name">"VC++ Project"</string>
           <string name="Compiler version">"%AUTO%"</string>
           <string name="Debug flags">"%AUTO%"</string>
-          <bool name="dirty">0</bool>
+          <bool name="dirty">1</bool>
           <bool name="Enable .sln generation">1</bool>
           <bool name="Enable makefile generation">1</bool>
           <string name="Executable name">"%EXECUTABLE%"</string>
@@ -287,7 +287,7 @@
           <string name="Compiler name">"VC++ Project"</string>
           <string name="Compiler version">"%AUTO%"</string>
           <string name="Debug flags">"%AUTO%"</string>
-          <bool name="dirty">0</bool>
+          <bool name="dirty">1</bool>
           <bool name="Enable .sln generation">1</bool>
           <bool name="Enable makefile generation">1</bool>
           <string name="Executable name">"%EXECUTABLE%"</string>
@@ -369,7 +369,7 @@
           <string name="Compiler location">"%AUTO%"</string>
           <string name="Compiler name">"MinGW"</string>
           <string name="Debug flags">"%AUTO%"</string>
-          <bool name="dirty">0</bool>
+          <bool name="dirty">1</bool>
           <bool name="Enable makefile generation">1</bool>
           <string name="Executable name">"%EXECUTABLE%"</string>
           <string name="Extra compile flags">"%AUTO%"</string>
@@ -440,7 +440,7 @@
           <string name="Compiler location">"%AUTO%"</string>
           <string name="Compiler name">"MinGW"</string>
           <string name="Debug flags">"%AUTO%"</string>
-          <bool name="dirty">0</bool>
+          <bool name="dirty">1</bool>
           <bool name="Enable makefile generation">1</bool>
           <string name="Executable name">"%EXECUTABLE%"</string>
           <string name="Extra compile flags">"%AUTO%"</string>
