@@ -15,10 +15,10 @@
 |----------------------------------------|------------|
 | Translate strings                      | ✅         |
 | Make Unicode strings source-friendly   | ✅         |
-| Target wxWidgets version               | `3.2.6`    |
-| VC++ version                           | `17`   <<--    Microsoft Visual Studio Community 2022 (64-разрядная версия) - Версия 17.12.4       |
-| VC++ tools version                     | `14.42.34433`   <<--    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433 |
-| Full Platform SDK version              | `10.0.22621.0`   <<--    C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0 |
+| Target wxWidgets version               | `3.3.0`    |
+| VC++ version                           | `17`   <<--    Microsoft Visual Studio Community 2022 (64-разрядная версия) - Версия 17.14.6       |
+| VC++ tools version                     | `14.44.35207`   <<--    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207 |
+| Full Platform SDK version              | `10.0.26100.0`   <<--    C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0 |
 | Source encoding                        | `utf-8`    |
 | Project encoding                       | `utf-8`    |
 | Message encoding                       | `utf-8`    |
@@ -71,7 +71,7 @@
 ### Flags
 
 |-----------------|--------|
-| Libraries       | `-mthreads -lwxmsw32ud_core -lwxbase32ud -lwxpngd -lwxjpegd -lwxtiffd -lwxzlibd -lwxregexud -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lcomctl32 -lwsock32 -lodbc32 -lshlwapi -lversion -loleacc -luxtheme -mwindows -lstdc++ -lsqlite3 -static` |
+| Libraries       | `-mthreads -lwxmsw33ud_core -lwxbase33ud -lgdiplus -lmsimg32 -lwxpngd -lwxjpegd -lwxtiffd -lwxzlibd -lwxregexud -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lcomctl32 -lwsock32 -lodbc32 -lshlwapi -lversion -loleacc -luxtheme -mwindows -lstdc++ -lsqlite3 -static` |
 
 ✅  *__Если приложение консольное, то флаг "-mwindows" не нужен !__*
 
@@ -95,8 +95,8 @@
 ### Flags
 
 |-----------------|--------|
-| Libraries       | `-mthreads -lwxmsw32u_core -lwxbase32u -lwxpng -lwxjpeg -lwxtiff -lwxzlib -lwxregexu -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lcomctl32 -lwsock32 -lodbc32 -lshlwapi -lversion -loleacc -luxtheme -mwindows -lstdc++ -lsqlite3 -static` |
-
+| Libraries       | `-mthreads -lwxmsw33u_core -lwxbase33u -lgdiplus -lmsimg32 -lwxpng -lwxjpeg -lwxtiff -lwxzlib -lwxregexu -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lcomctl32 -lwsock32 -lodbc32 -lshlwapi -lversion -loleacc -luxtheme -mwindows -lstdc++ -lsqlite3 -static` |
+                     
 ✅  *__Если приложение консольное, то флаг "-mwindows" не нужен !__*
 
 ---
